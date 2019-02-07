@@ -1,5 +1,7 @@
 @import "config";
 @import "menu";
+@import "mobile";
+
 * {
   box-sizing: border-box;
 }
@@ -27,9 +29,9 @@ h3 {
 
   &.sm-heading {
     margin-bottom: 2rem;
-    margin-right: 27rem;
-    padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    // margin-right: 27rem;
+    padding: 0.2rem 0rem;
+    //background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
 
